@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [ "echo_server_client" ]
+
+[workspace.dependencies]
+tokio = { version = "1.45.1", features = ["full"] }
+thiserror = { version = "2.0.12" }
