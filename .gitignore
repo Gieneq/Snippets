@@ -4,3 +4,6 @@ rust_dynlib_in_c/core_c/main
 
 # tokio
 tokio/target
+
+# rust_common
+rust_common/target
