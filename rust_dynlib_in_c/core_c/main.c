@@ -3,7 +3,11 @@
 #include "my_rust_lib_binding.h"
 
 int main() {
-    uint32_t result = do_add(7, 5);
-    printf("Result: %u\n", result);
+    // Test simple
+    const uint32_t a = 7;
+    const uint32_t b = 5;
+    const uint32_t result = do_add(a, b);
+    printf("Adding %u + %u result = %u\n", a, b, result);
+
     return 0;
 }
